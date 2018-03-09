@@ -23,4 +23,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_runtime_dependency "strava-api-v3", '~> 0.7.0'
+  spec.add_runtime_dependency "omniauth-strava", '~> 0.0.6'
+  spec.add_runtime_dependency "json"
+
 end

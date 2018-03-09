@@ -24,7 +24,7 @@ Or install it yourself as:
 
 This is just a placeholder for eventual usage instructions
 ```ruby
-@activity_name = StravaActivityNamer::Namify.name 'activity'
+@activity_name = StravaActivityNamer::Namifier.generate_name
 ```
 
 ## Development
