@@ -1,8 +1,6 @@
 # StravaActivityNamer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/strava_activity_namer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A simple Natural Language Generator (NLG) tool for naming Strava activities. Strava Activity Namer connects to the Strava API to rename a boring default activity name based on the user's activity history and some other data analysis. NOTE: This gem is still in development and is not fully functionaly yet.
 
 ## Installation
 
