@@ -1,6 +1,8 @@
-# StravaActivityNamer
+# Strava Activity Namer
 
-A simple Natural Language Generator (NLG) tool for naming Strava activities. Strava Activity Namer connects to the Strava API to rename a boring default activity name based on the user's activity history and some other data analysis. NOTE: This gem is still in development and is not fully functionaly yet.
+A simple Natural Language Generator (NLG) tool for naming Strava activities. Strava Activity Namer connects to the Strava API to rename a boring default activity name based on the user's activity history and some other data analysis.
+
+_NOTE: This gem is in development and is NOT functional yet._
 
 ## Installation
 
@@ -20,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This is just a placeholder for eventual usage instructions
+```ruby
+@activity_name = StravaActivityNamer::Namify.name 'activity'
+```
 
 ## Development
 
