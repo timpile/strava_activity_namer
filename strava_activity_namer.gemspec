@@ -26,6 +26,6 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "strava-api-v3", '~> 0.7.0'
   spec.add_runtime_dependency "omniauth-strava", '~> 0.0.6'
-  spec.add_runtime_dependency "json"
+  spec.add_runtime_dependency "json", '~> 1.8', '>= 1.8.3'
 
 end
